@@ -1,11 +1,11 @@
-/* REVERSE CALCULATOR
+/* CALCULETTE POLONAISE (ou INVERSEE)
 	Andry RAJERISON */
 
 
 Recommandations
 ****************
 
-- Merci d'importer le fichier de la base de donnée  "resultat.sql"
+- Merci d'importer le fichier de la base de donnÃ©e  "resultat.sql"
 
 _ Executer l'application avec le script "v-index.php" dans le dossier Calculatrice/Vue/v-index.php 
 
@@ -13,23 +13,24 @@ _ Executer l'application avec le script "v-index.php" dans le dossier Calculatri
 Fonctionnement de l'appli
 **************************
 
-Cette appli est une calculatrice INVERSEE qui travaille comme ceci:
+Cette appli est une calculatrice polonaise qui travaille de faÃ§on inversÃ©e(contrairerement Ã  une calculette normale^^
 
--  Au départ, l'application débute avec « result » à 0 et « input » à 0 
+-  Au dÃ©part, l'application dÃ©bute avec les champs Â« result Â» et Â« input Â»  initialisÃ©s Ã  0:
 
--  A chaque clic sur un chiffre, "input" est incrémenté (left shift) du chiffre concerné 
+-  A chaque clic sur un chiffre, "input" est incrÃ©mentÃ© (left shift) du chiffre concernÃ© 
 
-- Lorsqu'on appuie sur une opérande (+*-/), l’opération est  réalisée avec : result (opération) input 
-   « input » est mis à zero
-   « result » est mis à jour avec le résultat (changement dans la base de données)
+ Lorsqu'on appuie sur une opÃ©rande (+*-/), lâ€™opÃ©ration est  rÃ©alisÃ©e avec : result (opÃ©ration) input 
+   Â« input Â» est mis Ã  zero
+   Â« result Â» est mis Ã  jour avec le rÃ©sultat (changement dans la base de donnÃ©es)
 
 
 Exemple: 2 + 4 *  => 8
 
 
-- Au départ lorsque l'on tape 2, rien ne se passe; le résultat reste à 0
-- Une fois l'opérande cliquée,  0 + 2 est effectuée  
+- Au dÃ©part lorsque l'on tape 2, rien ne se passe; le rÃ©sultat reste Ã  0
+- Une fois l'opÃ©rande cliquÃ©e,  0 + 2 est effectuÃ©e  
 - Lorsque l'on saisit 4, rien ne se passe
-- Enfin la derniere opérande effectue la multiplication de 2 (qui est la valeur de result) par 4
+- Enfin la derniere opÃ©rande effectue la multiplication de 2 (qui est la valeur de result) par 4
+
 
 
